@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Добавление библиотек selenium-java, webdrivermanager">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/ExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
+    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Тест-кейс №1 - Авторизация пользователя.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663755106253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Тест-кейс №1 - Авторизация пользователя.">
+      <created>1663788602957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663788602957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +156,8 @@
     <MESSAGE value="Создание и настройка проекта Maven." />
     <MESSAGE value="Home Work 2" />
     <MESSAGE value="Добавление библиотек selenium-java, webdrivermanager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление библиотек selenium-java, webdrivermanager" />
+    <MESSAGE value="Тест-кейс №1 - Авторизация пользователя." />
+    <option name="LAST_COMMIT_MESSAGE" value="Тест-кейс №1 - Авторизация пользователя." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
