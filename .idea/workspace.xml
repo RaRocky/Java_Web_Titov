@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Home Work 2">
+    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Добавление библиотек selenium-java, webdrivermanager">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,14 +41,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/web_test",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/JavaCore_HomeWorks_Titov",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Java_Web_Titov" />
@@ -50,8 +62,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson3.ExampleMain" />
+      <module name="Java_Web_Titov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson3.home_work3.Main" />
+      <module name="Java_Web_Titov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson3.home_work3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ExampleMain" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -86,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663747874676</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавление библиотек selenium-java, webdrivermanager">
+      <created>1663755106253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663755106253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание и настройка проекта Maven." />
     <MESSAGE value="Home Work 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Work 2" />
+    <MESSAGE value="Добавление библиотек selenium-java, webdrivermanager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление библиотек selenium-java, webdrivermanager" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
