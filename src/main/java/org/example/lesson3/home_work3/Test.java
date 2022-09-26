@@ -3,9 +3,6 @@ package org.example.lesson3.home_work3;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
 
 public class Test {
@@ -33,21 +30,19 @@ public class Test {
     }
 
     // Метод определяет существование и уникальность элемента сайта по заданному локатору.
-    public boolean isLocatorCorrect(Integer countOfElements, Locator locator) {
+    public void isLocatorCorrect(Integer countOfElements, Locator locator) {
 
         if (countOfElements == 0) {
             System.out.println("Элементов, соответствующих '" + locator.getName() + "' c локатором " +
                     locator.getType() + " = '" + locator.getPath() + "' не найдено.");
-            return false;
+            return;
         }
         if (countOfElements > 1) {
             System.out.println("'" + locator.getName() + "' с локатором " + locator.getType() + " = '"
                     + locator.getPath() + "' - не уникальный. Задайте другой.");
-            return false;
         } else {
             System.out.println("Элемент '" + locator.getName() + "' с локатором " + locator.getType() + " = '" +
                     locator.getPath() + "' успешно найден.");
-            return true;
         }
     }
 
@@ -66,6 +61,4 @@ public class Test {
 
         webElements.get(0).click();
     }
-
-
 }
