@@ -1,28 +1,19 @@
 package org.example.lesson3.home_work3;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class Test {
     WebDriver driver;
 
     // Конструктор.
-    Test() {
-        WebDriverManager.chromedriver().setup(); // установка веб-драйвера для браузера Chrome.
-        ChromeOptions options = new ChromeOptions(); // объявление настроек браузера.
-        //options.addArguments("--incognito"); // режим инкогнито, отключает кэш, чтобы автотесты не влияли на состояние сайта.
-        //options.addArguments("--headless"); // запуск браузера в фоновом режиме.
-        options.addArguments("start-maximized"); // запуск браузера в полноэкранном режиме.
-        driver = new ChromeDriver(options); // запуск самого браузера.
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.get("http://automationpractice.com/index.php"); // стартовая страница, с которой запускается браузер.
+    Test(WebDriver driver) {
+        this.driver = driver;
     }
 
     // Метод находит элементы сайта по заданному типу локатора.
@@ -43,6 +34,7 @@ public class Test {
 
     // Метод определяет существование и уникальность элемента сайта по заданному локатору.
     public boolean isLocatorCorrect(Integer countOfElements, Locator locator) {
+
         if (countOfElements == 0) {
             System.out.println("Элементов, соответствующих '" + locator.getName() + "' c локатором '" +
                     locator.getPath() + "' не найдено.");

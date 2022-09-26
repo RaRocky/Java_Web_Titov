@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Тест-кейс №1 - Авторизация пользователя.">
+    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Тест-кейс №2 - Добавление товара в корзину.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
     </list>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663788602957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Тест-кейс №2 - Добавление товара в корзину.">
+      <created>1663796562862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663796562862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +164,8 @@
     <MESSAGE value="Home Work 2" />
     <MESSAGE value="Добавление библиотек selenium-java, webdrivermanager" />
     <MESSAGE value="Тест-кейс №1 - Авторизация пользователя." />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест-кейс №1 - Авторизация пользователя." />
+    <MESSAGE value="Тест-кейс №2 - Добавление товара в корзину." />
+    <option name="LAST_COMMIT_MESSAGE" value="Тест-кейс №2 - Добавление товара в корзину." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
