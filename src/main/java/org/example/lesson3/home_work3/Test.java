@@ -36,16 +36,16 @@ public class Test {
     public boolean isLocatorCorrect(Integer countOfElements, Locator locator) {
 
         if (countOfElements == 0) {
-            System.out.println("Элементов, соответствующих '" + locator.getName() + "' c локатором '" +
-                    locator.getPath() + "' не найдено.");
+            System.out.println("Элементов, соответствующих '" + locator.getName() + "' c локатором " +
+                    locator.getType() + " = '" + locator.getPath() + "' не найдено.");
             return false;
         }
         if (countOfElements > 1) {
-            System.out.println("'" + locator.getName() + "' с локатором '" + locator.getPath() +
-                    "' - не уникальный. Задайте другой.");
+            System.out.println("'" + locator.getName() + "' с локатором " + locator.getType() + " = '"
+                    + locator.getPath() + "' - не уникальный. Задайте другой.");
             return false;
         } else {
-            System.out.println("Элемент '" + locator.getName() + "' с локатором '" +
+            System.out.println("Элемент '" + locator.getName() + "' с локатором " + locator.getType() + " = '" +
                     locator.getPath() + "' успешно найден.");
             return true;
         }

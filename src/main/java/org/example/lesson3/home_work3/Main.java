@@ -61,7 +61,7 @@ public class Main {
         Locator locator1 = new Locator("Кнопка 'Sign in'", "css", ".login");
         Locator locator2 = new Locator("Поле ввода email", "id", "email");
         Locator locator3 = new Locator("Поле ввода пароля", "id", "passwd");
-        Locator locator4 = new Locator("Кнопка подтверждения регистрации", "id", "SubmitLogin");
+        Locator locator4 = new Locator("Кнопка подтверждения авторизации", "id", "SubmitLogin");
 
         // Создание связанного списка элементов сайта, задействованных в тест-кейсе №1.
 
@@ -101,8 +101,8 @@ public class Main {
 
         Locator locator3 = new Locator("Кнопка 'Add to cart'", "id", "add_to_cart");
 
-        Locator locator4 = new Locator("Кнопка 'Proceed to checkout'", "css",
-                ".button-medium > span");
+        Locator locator4 = new Locator("Кнопка 'Proceed to checkout'", "xpath",
+                ".//a[@title = 'Proceed to checkout']/span");
 
         // Создание связанного списка элементов сайта, задействованных в тест-кейсе №2.
 

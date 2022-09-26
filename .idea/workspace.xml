@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Тест-кейс №2 - Добавление товара в корзину.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Browser.java" afterDir="false" />
+    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Home Work 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
@@ -39,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/JavaCore_HomeWorks_Titov",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/Java_Web_Titov",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663796562862</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Home Work 3">
+      <created>1664159116762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664159116762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +171,8 @@
     <MESSAGE value="Добавление библиотек selenium-java, webdrivermanager" />
     <MESSAGE value="Тест-кейс №1 - Авторизация пользователя." />
     <MESSAGE value="Тест-кейс №2 - Добавление товара в корзину." />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест-кейс №2 - Добавление товара в корзину." />
+    <MESSAGE value="Home Work 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
