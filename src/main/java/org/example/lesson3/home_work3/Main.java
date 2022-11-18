@@ -74,7 +74,7 @@ public class Main {
         // Реализация операций, описанных в тест-кейсе №1.
 
         for (Locator iterator : locators) {
-            test.isLocatorCorrect(test.countElements(iterator), iterator);
+            test.isLocatorCorrect(test.countOfElements(iterator), iterator);
             test.doTest(test.findElements(iterator));
         }
         System.out.println("--------------------------------");
@@ -115,7 +115,7 @@ public class Main {
         // Реализация операций, описанных в тест-кейсе №2.
 
         for (Locator iterator : locators) {
-            test.isLocatorCorrect(test.countElements(iterator), iterator);
+            test.isLocatorCorrect(test.countOfElements(iterator), iterator);
             test.doTest(test.findElements(iterator));
         }
         System.out.println("--------------------------------");
@@ -149,7 +149,7 @@ public class Main {
         // Реализация операций, описанных в тест-кейсе №3.
 
         for (Locator iterator : locators) {
-            test.isLocatorCorrect(test.countElements(iterator), iterator);
+            test.isLocatorCorrect(test.countOfElements(iterator), iterator);
             test.doTest(test.findElements(iterator));
         }
         System.out.println("--------------------------------");
@@ -203,7 +203,7 @@ public class Main {
         // Реализация операций, описанных в тест-кейсе №4.
 
         for (Locator iterator : locators) {
-            test.isLocatorCorrect(test.countElements(iterator), iterator);
+            test.isLocatorCorrect(test.countOfElements(iterator), iterator);
             test.doTest(test.findElements(iterator));
         }
         System.out.println("--------------------------------");

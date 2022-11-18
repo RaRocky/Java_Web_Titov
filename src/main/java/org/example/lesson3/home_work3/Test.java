@@ -22,7 +22,7 @@ public class Test {
     }
 
     // Метод подсчитывает количество элементов, найденных по заданному локатору.
-    public Integer countElements(Locator locator) {
+    public Integer countOfElements(Locator locator) {
         if (locator.getType().equals("id")) return driver.findElements(By.id(locator.getPath())).size();
         if (locator.getType().equals("css")) return driver.findElements(By.cssSelector(locator.getPath())).size();
         if (locator.getType().equals("xpath")) return driver.findElements(By.xpath(locator.getPath())).size();
@@ -35,10 +35,9 @@ public class Test {
         if (countOfElements == 0) {
             System.out.println("Элементов, соответствующих '" + locator.getName() + "' c локатором " +
                     locator.getType() + " = '" + locator.getPath() + "' не найдено.");
-            return;
         }
         if (countOfElements > 1) {
-            System.out.println("'" + locator.getName() + "' с локатором " + locator.getType() + " = '"
+            System.out.println("Элемент '" + locator.getName() + "' с локатором " + locator.getType() + " = '"
                     + locator.getPath() + "' - не уникальный. Задайте другой.");
         } else {
             System.out.println("Элемент '" + locator.getName() + "' с локатором " + locator.getType() + " = '" +
