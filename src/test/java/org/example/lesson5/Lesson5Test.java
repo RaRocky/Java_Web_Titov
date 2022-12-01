@@ -43,6 +43,9 @@ public class Lesson5Test extends AbstractTest {
         // Проверка перехода на главную страницу.
         Assertions.assertEquals("https://www.demoblaze.com/index.html", getDriver().getCurrentUrl(),
                 "Переход на главную страницу не осуществлен");
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Тест успешно завершен");
     }
 
     @Test
@@ -371,6 +374,9 @@ public class Lesson5Test extends AbstractTest {
 
         // Проверка появления сообщения об оформлении заказа.
         Assertions.assertTrue(getDriver().getPageSource().contains("Thank you for your purchase!"));
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Тест успешно завершен");
     }
 
     @Test
@@ -424,6 +430,9 @@ public class Lesson5Test extends AbstractTest {
                 .pause(PAUSE)
                 .build()
                 .perform();
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("Тест успешно завершен");
     }
 
 

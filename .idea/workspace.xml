@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Home Work 4">
-      <change afterPath="$PROJECT_DIR$/Authorization_lesson5_Cookie.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/Lesson5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/Locator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/WrongPathOfLocatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/WrongTypeOfLocatorException.java" afterDir="false" />
+    <list default="true" id="f0aa9816-df3c-49e5-b885-c0fec9610ab6" name="Changes" comment="Home Work 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/AboutUsVideoWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/AuthorizationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/CategoriesMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/ContactForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/Logo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/MonitorsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/PlaceOrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson6/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson6/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson6/Lesson6Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dz/ExampleClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dz/MyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authorization_lesson5_Cookie.data" beforeDir="false" afterPath="$PROJECT_DIR$/Authorization_lesson5_Cookie.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lesson5/Lesson5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/Lesson5Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Locator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/lesson3/home_work3/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/lesson6/Lesson6Test.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +74,7 @@
       <recent name="org.example.lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson5Test">
+  <component name="RunManager" selected="JUnit.Lesson6Test">
     <configuration name="Lesson5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Web_Titov" />
       <extension name="coverage">
@@ -100,60 +106,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5Test.placeOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Web_Titov" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lesson5.*" />
+          <option name="PATTERN" value="org.example.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson5.Lesson5Test" />
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6Test.aboutUsVideoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Web_Titov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6Test" />
+      <option name="METHOD_NAME" value="aboutUsVideoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6Test.placeOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Web_Titov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.Lesson6Test" />
       <option name="METHOD_NAME" value="placeOrderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5Test.sendMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Web_Titov" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson5.Lesson5Test" />
-      <option name="METHOD_NAME" value="sendMessageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Web_Titov" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson4.TriangleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lesson6Test" />
         <item itemvalue="JUnit.Lesson5Test" />
-        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.Lesson6Test.aboutUsVideoTest" />
         <item itemvalue="JUnit.Lesson5Test.aboutUsVideoTest" />
-        <item itemvalue="JUnit.Lesson5Test.placeOrderTest" />
-        <item itemvalue="JUnit.Lesson5Test.sendMessageTest" />
+        <item itemvalue="JUnit.Lesson6Test.placeOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666730635460</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Home Work 5">
+      <created>1668803483407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668803483407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +264,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -268,7 +287,8 @@
     <MESSAGE value="Исправлено" />
     <MESSAGE value="Добавление Lesson4" />
     <MESSAGE value="Home Work 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Work 4" />
+    <MESSAGE value="Home Work 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
