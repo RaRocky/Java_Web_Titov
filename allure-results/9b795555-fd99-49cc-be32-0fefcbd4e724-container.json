@@ -1,0 +1,1 @@
+{"uuid":"9b795555-fd99-49cc-be32-0fefcbd4e724","name":"Оформление заказа.","children":["38cf0279-42e4-4705-a7a6-23223dc612ff"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670880947241,"stop":1670880949451}],"afters":[],"start":1670880947240,"stop":1670880951024}

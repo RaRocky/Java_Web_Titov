@@ -1,0 +1,1 @@
+{"uuid":"c2107f52-3321-4036-9ba6-28e3ff132098","name":"Добавление товара в корзину.","children":["873af082-f33e-4d50-bfac-bc576c81b3d5"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670882728415,"stop":1670882728671}],"afters":[],"start":1670882728413,"stop":1670882732466}

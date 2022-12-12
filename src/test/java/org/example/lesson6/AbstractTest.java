@@ -28,13 +28,13 @@ public class AbstractTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("start-maximized");
         options.setPageLoadTimeout(Duration.ofSeconds(10));
 
 
         webDriver = new ChromeDriver(options);
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
     @BeforeEach
@@ -51,7 +51,7 @@ public class AbstractTest {
     }
 
     public WebDriver getWebDriver(){
-        return this.webDriver;
+        return AbstractTest.webDriver;
     }
 
     public static void addCookiesFromFile(String fileName) {
@@ -134,7 +134,7 @@ public class AbstractTest {
         webDriver.navigate().refresh();
 
         // Явное ожидание.
-        new WebDriverWait(webDriver, 5).until(ExpectedConditions
+        new WebDriverWait(webDriver, Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("nameofuser")));
 
         // Проверка наличия надписи 'Welcome Bob Smith'.

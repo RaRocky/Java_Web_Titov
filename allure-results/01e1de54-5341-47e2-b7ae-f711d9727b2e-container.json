@@ -1,0 +1,1 @@
+{"uuid":"01e1de54-5341-47e2-b7ae-f711d9727b2e","name":"Проверка возможности воспроизведения видео 'About us'","children":["d9ff41d2-997f-419e-a58c-9061428856bd"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670873321339,"stop":1670873322163}],"afters":[],"start":1670873321332,"stop":1670873327212}

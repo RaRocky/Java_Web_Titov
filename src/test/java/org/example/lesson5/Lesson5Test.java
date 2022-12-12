@@ -8,6 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class Lesson5Test extends AbstractTest {
     private final long PAUSE = 1000;
 
@@ -26,7 +28,7 @@ public class Lesson5Test extends AbstractTest {
                 "Страница не доступна");
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/prod.html?idp_=5"));
 
         // Шаг№2. Нажатие на надпись 'PRODUCT STORE' на логотипе сайта.
@@ -37,7 +39,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/index.html"));
 
         // Проверка перехода на главную страницу.
@@ -87,7 +89,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("nameofuser")));
 
         // Проверка наличия надписи 'Welcome Bob Smith'.
@@ -123,7 +125,7 @@ public class Lesson5Test extends AbstractTest {
         getDriver().navigate().refresh();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("nameofuser")));
 
         // Проверка наличия надписи 'Welcome Bob Smith'.
@@ -137,7 +139,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/index.html#"));
 
         // Проверка перехода на страницу категории 'Monitors'.
@@ -152,7 +154,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/prod.html?idp_=14"));
 
         // Проверка перехода на страницу товара.
@@ -167,7 +169,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.alertIsPresent());
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.alertIsPresent());
 
         // Проверка текста уведомления о добавлении товара.
         Assertions.assertEquals("Product added.", getDriver().switchTo().alert().getText());
@@ -183,7 +185,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/cart.html"));
 
         // Проверка перехода на страницу корзины товаров.
@@ -228,7 +230,7 @@ public class Lesson5Test extends AbstractTest {
         getDriver().navigate().refresh();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("nameofuser")));
 
         // Проверка наличия надписи 'Welcome Bob Smith'.
@@ -265,7 +267,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-       new WebDriverWait(getDriver(), 5).until(ExpectedConditions.alertIsPresent());
+       new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.alertIsPresent());
 
         // Проверка текста уведомления об отправке сообщения.
         Assertions.assertEquals("Thanks for the message!!", getDriver().switchTo().alert().getText());
@@ -301,7 +303,7 @@ public class Lesson5Test extends AbstractTest {
         getDriver().navigate().refresh();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("nameofuser")));
 
         // Проверка наличия надписи 'Welcome Bob Smith'.
@@ -315,7 +317,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.urlContains(
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions.urlContains(
                 "https://www.demoblaze.com/cart.html"));
 
         // Проверка перехода на страницу корзины товаров.
@@ -330,7 +332,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("orderModalLabel")));
 
         // Проверка открытия формы оформления заказа.
@@ -369,7 +371,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("orderModalLabel")));
 
         // Проверка появления сообщения об оформлении заказа.
@@ -403,7 +405,7 @@ public class Lesson5Test extends AbstractTest {
                 .perform();
 
         // Явное ожидание.
-        new WebDriverWait(getDriver(), 5).until(ExpectedConditions
+        new WebDriverWait(getDriver(), Duration.ofSeconds(5)).until(ExpectedConditions
                 .visibilityOfElementLocated(By.id("videoModalLabel")));
 
         // Проверка наличия кнопки воспроизведения видео.

@@ -1,0 +1,1 @@
+{"uuid":"b7c27a68-d5d5-4d80-9356-70d9fbfb1cf1","name":"Отправление сообщения в разделе Contact.","children":["18f3bfd0-1025-4801-a7d0-71a3c7fca67d"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670874609638,"stop":1670874609891}],"afters":[],"start":1670874609636,"stop":1670874611783}

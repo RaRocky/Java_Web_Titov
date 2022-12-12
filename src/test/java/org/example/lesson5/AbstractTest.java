@@ -9,8 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.*;
+import java.time.Duration;
 import java.util.StringTokenizer;
-import java.util.concurrent.TimeUnit;
 
 public class AbstractTest {
 
@@ -21,10 +21,10 @@ public class AbstractTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        // options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
     @BeforeEach
@@ -106,11 +106,11 @@ public class AbstractTest {
         File file = new File(fileName);
 
         try {
-            // Удаление файла Cookie, если он существует.
+           /* // Удаление файла Cookie, если он существует.
             file.delete();
 
             // Создание нового файла Cookie.
-            file.createNewFile();
+            file.createNewFile();*/
 
 
             FileWriter fileWriter = new FileWriter(file);

@@ -1,0 +1,1 @@
+{"uuid":"02c52de4-2d2e-4088-b80f-23e348d46a45","name":"Авторизация пользователя.","children":["4588c784-2cd2-41a7-a2f3-e2b6aed450ff"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670874361938,"stop":1670874362190}],"afters":[],"start":1670874361936,"stop":1670874362322}
